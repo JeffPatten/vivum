@@ -1,8 +1,11 @@
 import React from 'react'
+import Library from '../components/Library'
 
 const ExerciseLib = () => {
   return (
-    <div>ExerciseLib</div>
+    <div>
+      <Library type="exercise" />
+    </div>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import Library from '../components/Library'
 
 const FoodLib = () => {
   return (
-    <div>FoodLib</div>
+    <div>
+      <Library type="food" />
+    </div>
   )
 }
 

@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const Library = () => {
-  return (
-    <div>Library</div>
-  )
-}
+const Library = (props) => {
+  if (props.type === "food") {
+    return (
+    <div>
+      Map through meals
+    </div>
+    ) 
+  } else if (props.type === "exercise") {
+    return (
+    <div>
+      Map through exercises
+    </div>
+    )  
+  }
+};
 
-export default Library
+export default Library;

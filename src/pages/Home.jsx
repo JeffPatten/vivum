@@ -1,8 +1,11 @@
 import React from 'react'
+import DailyStatus from '../components/DailyStatus'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <DailyStatus />
+    </div>
   )
 }
 
